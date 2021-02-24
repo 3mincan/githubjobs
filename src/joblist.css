@@ -1,0 +1,27 @@
+.MuiTableCell-root.MuiTableCell-body {
+  max-width: 400px;
+}
+
+td:nth-child(2) {
+  text-align: end;
+}
+
+.greenText {
+  color: #1d9a00;
+}
+
+.orangeText {
+  color: orange;
+}
+
+.smalltext {
+  font-size: 0.75rem !important;
+}
+
+.midtext {
+  font-size: 0.875rem !important;
+}
+
+.fontBold {
+  font-weight: bold !important;
+}

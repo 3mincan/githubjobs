@@ -1,0 +1,10 @@
+.MuiTableCell-root.MuiTableCell-body div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.MuiTableCell-root.MuiTableCell-body div img{
+  width: auto;
+  height: 40px;
+}

@@ -1,0 +1,13 @@
+.footer {
+    margin-top: 16px;
+}
+
+.icon {
+    width: 2em!important;
+    height: 2em!important;
+}
+
+.footertext {
+    justify-content: space-around;
+
+}

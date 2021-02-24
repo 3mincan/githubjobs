@@ -1,0 +1,24 @@
+a {
+    border: none!important;
+    color: inherit!important;
+}
+
+.MuiAvatar-img {
+    object-fit: contain!important;
+}
+
+.companyInfoText {
+    margin: 4px 0;
+}
+
+.smallheader {
+    margin: 24px 0 12px 0;
+}
+
+p.smalltext * {
+      font-size: 0.75rem !important;
+}
+
+.description-text {
+    padding: 24px
+}
