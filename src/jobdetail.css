@@ -16,9 +16,26 @@ a {
 }
 
 p.smalltext * {
-      font-size: 0.75rem !important;
+    font-size: 0.75rem !important;
+    line-height: 1.2rem
+}
+
+p.smalltext h3 {
+    font-size: 1.17em!important;
+    margin: 1em 0;
+}
+
+p.smalltext ul {
+    margin: 1em 0;
+    padding-inline-start: 40px;
 }
 
 .description-text {
     padding: 24px
+}
+
+.htaclass  {
+        max-width: 100%;
+    word-break: break-word;
+    text-align: center;
 }

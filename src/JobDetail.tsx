@@ -121,7 +121,7 @@ export const JobDetail: FC<Position> = () => {
               <Grid item xs={12} className={classes.mt}>
                 <Paper className={classes.paper}>
                   <Button variant="outlined">
-                    <Link to="/">
+                    <Link to="/positions">
                       <FontAwesomeIcon icon={faArrowLeft} /> See All Jobs
                     </Link>
                   </Button>
@@ -162,7 +162,7 @@ export const JobDetail: FC<Position> = () => {
                   </p>
                   <p className="midtext smallheader">How To Apply</p>
                   <p
-                    className="smalltext"
+                    className="smalltext htaclass"
                     dangerouslySetInnerHTML={{
                       __html: `${adData.how_to_apply}`,
                     }}

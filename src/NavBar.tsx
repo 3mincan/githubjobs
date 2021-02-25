@@ -10,6 +10,7 @@ const useStyles = makeStyles((theme: Theme) =>
   createStyles({
     root: {
       flexGrow: 1,
+      position: "relative",
     },
     deneme: {
       display: "flex",
@@ -43,10 +44,6 @@ export const NavBar = () => {
               />
             </Link>
             <Button variant="outlined">Post a job</Button>
-            {/* <Typography variant="h6" className={classes.title}>
-            News
-          </Typography> */}
-            {/* <Button color="inherit">Login</Button> */}
           </Toolbar>
         </Box>
       </AppBar>

@@ -45,22 +45,6 @@ export const JobList = () => {
 
   const columns = useMemo(
     () => [
-      //   {
-      //     Header: " ",
-      //     accessor: "company_logo",
-      //     maxWidth: 150,
-      //     Cell: (row: any) => {
-      //       return (
-      //         <div>
-      //           {row.value != null ? (
-      //             <img src={row.value} />
-      //           ) : (
-      //             <img src={nologo} />
-      //           )}
-      //         </div>
-      //       );
-      //     },
-      //   },
       {
         Header: "Company Name",
         accessor: "company",

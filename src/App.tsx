@@ -1,5 +1,6 @@
 import React, { FC, useMemo } from "react";
 import { JobList } from "./JobList";
+import { Home } from "./Home";
 import { JobDetail } from "./JobDetail";
 import { NavBar } from "./NavBar";
 import { Footer } from "./Footer";
@@ -48,7 +49,8 @@ export const App: FC = () => {
           <NavBar />
           <CssBaseline />
           <Container maxWidth="md">
-            <Route path="/" exact component={JobList} />
+            <Route path="/" exact component={Home} />
+            <Route path="/positions" exact component={JobList} />
             <Route path="/position/:id" component={JobDetail} />{" "}
           </Container>
           <Footer />
