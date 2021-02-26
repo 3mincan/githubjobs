@@ -13,7 +13,7 @@ import Typography from "@material-ui/core/Typography";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowLeft } from "@fortawesome/free-solid-svg-icons";
 import nologo from "./No-logo.svg";
-import { axiosInstance } from "./Api";
+import { BaseURL } from "./Api";
 import "./jobdetail.css";
 
 type Position = {
@@ -79,7 +79,7 @@ export const JobDetail: FC<Position> = () => {
     setState((state) => ({ ...state, isLoading: true }));
     try {
       const { data } = await axios.get(
-        `https://jobs.github.com/positions/${urlParams.id}.json`
+        BaseURL + `/positions/${urlParams.id}.json`
       );
       setState((state) => ({
         ...state,

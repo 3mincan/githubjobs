@@ -6,7 +6,7 @@ import { Skeleton } from "@material-ui/lab";
 import { Error } from "./Error";
 import Typography from "@material-ui/core/Typography";
 import moment from "moment";
-import { axiosInstance } from "./Api";
+import { BaseURL } from "./Api";
 import "./joblist.css";
 
 export const JobList = () => {
@@ -19,7 +19,7 @@ export const JobList = () => {
   const fetchJobs = useCallback(async () => {
     setState((state) => ({ ...state, isLoading: true }));
     try {
-      const { data } = await axios.get(axiosInstance + "/positions");
+      const { data } = await axios.get(BaseURL + "/positions");
       setState((state) => ({
         ...state,
         ads: data,
