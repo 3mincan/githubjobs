@@ -13,6 +13,7 @@ import Typography from "@material-ui/core/Typography";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowLeft } from "@fortawesome/free-solid-svg-icons";
 import nologo from "./No-logo.svg";
+import { axiosInstance } from "./Api";
 import "./jobdetail.css";
 
 type Position = {
