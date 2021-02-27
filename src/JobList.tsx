@@ -19,7 +19,7 @@ export const JobList = () => {
   const fetchJobs = useCallback(async () => {
     setState((state) => ({ ...state, isLoading: true }));
     try {
-      const { data } = await axios.get(BaseURL + "/positions");
+      const { data } = await axios.get(BaseURL + "/positions.json");
       setState((state) => ({
         ...state,
         ads: data,
